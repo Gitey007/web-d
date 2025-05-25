@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS fonts and color</title>
+    <!-- here we put the link copied from google fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet"> -->
+    <style>
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        /* here we are studying different types of method to introduce new fonts  */
+        p {
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            font-family: "Baloo Bhai 2", sans-serif;
+            /* font-style: italic; */
+            /* font: weight: 100px;  */
+            /* font-size: 40px; */
+            /* font-style: italic; */
+            font-style: italic;
+            /* fonts have diffrent properties like font weight underline overline etc  */
+            /* line-height: 4; */
+            /* line hieght helps us to increase space between two lines  */
+            /* letter-spacing: ; */
+            /* letter spacing is used for increasing spaces between lettters  */
+        }
+
+        h2 {
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: underline;
+            /* it is used to make whole word with lower case or upper case or capitalize first letter */
+            text-decoration-color:aqua;
+            /* ye ek underline le aaayega jo coloured hoga  */
+            text-decoration-style: dotted;
+            /* underline will appear like dotted wavy or solid or etc */
+            text-decoration-thickness:5px ;
+            /* ye decoration k thickness ko decide karta hai  */
+        }
+        .sahul{
+            border: 5px solid;
+            width: 450px;
+            border-color: aqua;
+            /* text-overflow: ellipsis;
+            overflow: hidden; */
+            word-break: break-all;
+            /* jab bhi ham border dete hai tab hamara line border k bahar na aa jaye isiliye ham in sab ka prayog karte hai or line ko word break yani andar rakhna or ye sab karte hai  */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Fonts</h1>
+        <h2>about fonts</h2>
+        <p>this is the video on fonts</p>
+        <p class="sahul">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem labore assumenda laboriosam autem
+            architecto veniam animi explicabo molestias dolore asperiores reprehenderit quae nobis nesciunt non, quia
+            iusto, quod rerum eaque cumque ut! Doloribus incidunt sunt esse vero eaque architecto minima, asperiores
+            voluptas voluptatibus eos iusto.</p>
+    </div>
+</body>
+
+</html>

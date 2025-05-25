@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* Element selector */
+        div {
+            /* background-color: red; */
+            /* class selector= isake liye . ke sath class dalte hai */
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        /* id selector = id selector k liye # ke sath id dalte hai*/
+        #green {
+            background-color: green;
+        }
+
+        /* child selector = agar div k anadar directly para ho tab ham ise lagate hai  */
+        div>p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* descendant selector =  agar div k anadar directly para na hoke vo kisi or k andar phir
+         usake andar para ho tab ham descendent lagate hai */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* universal selector = lines k bich margine khatam karne liye use karte hai */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector = kisi bhi website ka jab link dalte hai tab ham agar chahe ki visit
+        karne ke baad or pahle link jis color ka dikhe vo yaha set kiya ja sakta hai */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: blueviolet;
+        }
+/* jab bhi ham kisi link pe apna recurring le jate hai tab ye ek alag color show karta hai  */
+        a:hover {
+            background-color: aqua;
+        }
+/* jab bhi ham kisi div ya main me koi para graph add karte hai tab pahle fisrt child dusra
+ second child aise hi aage badhta hai  */
+        p:first-child {
+            background-color: aqua;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <main class="one">
+        <p>i m the first child</p>
+        <p>i m the second child</p>
+    </main>
+    <div class="red">
+        i m a div
+        <p>i am a para inside div</p>
+    </div>
+    <div id="green">
+        hiii
+    </div>
+    <a target="_blank" href="https:///www.google.com">go to google</a>
+    <a target="_blank" href="https://www.instagram.com">facebook</a>
+</body>
+
+</html>
