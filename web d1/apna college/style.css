@@ -1,0 +1,11 @@
+body{
+    header{
+        background-color: aqua;
+        border: 2px;
+        padding: auto;
+    }
+    nav{
+        background-color: black;
+        color: rgb(250, 250, 250);
+    }
+}
