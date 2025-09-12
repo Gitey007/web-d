@@ -1,0 +1,45 @@
+/* a,p{
+    color: rgb(59, 176, 100);
+}
+/* a{
+    color: black;
+} */
+ /* li{
+    list-style-type: square;
+ }
+ .special{
+    color: blueviolet;
+    font-weight: bold;
+ }
+ h1.special{
+    color: brown;
+ }  */
+   /* li em{
+    color: rgb(211, 27, 64);
+   } */
+   /* a:hover{
+    color: blue;
+    text-decoration: none;
+   } */
+    /* body h1+p .special{
+        color: black;
+        background-color: blue;
+        padding: 5px;
+    } */
+     /* #heading{
+        color: bisque;
+        background-color: brown;
+     } */
+      /* p#one{
+        color: blueviolet;
+        background-color: aquamarine;
+      } */
+       /* li[class]{
+        font-size: 300%;
+       } */
+        /* li[class~="a"]{
+            color: blue;
+        } */
+         /* *{
+            list-style-type: none;
+         } */
