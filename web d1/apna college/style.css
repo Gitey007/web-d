@@ -1,4 +1,4 @@
-body{
+/* body{
     header{
         background-color: aqua;
         border: 2px;
@@ -8,4 +8,31 @@ body{
         background-color: black;
         color: rgb(250, 250, 250);
     }
+} */
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    
+   
+    
+}
+nav{
+    background-color: black;
+     overflow: hidden;
+}
+nav a:hover{
+    color: blue;
+}
+nav a:visited{
+    color: rgb(49, 92, 16);
+}
+h1{
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+   
 }
